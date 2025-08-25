@@ -1,4 +1,4 @@
-# Qwen2.5-7B-Instruct 微调
+# 大模型微调
 
 ## 文件介绍
 
@@ -107,4 +107,5 @@ python train_grpo.py
 **使用 trl 库的 GRPOTrainer 强化学习微调**
 
 - https://huggingface.co/docs/trl/v0.16.0/en/grpo_trainer
+
 - https://github.com/shibing624/MedicalGPT/blob/main/grpo_training.py
