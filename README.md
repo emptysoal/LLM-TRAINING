@@ -1,5 +1,7 @@
 # 大模型微调
 
+- 本项目以 `Qwen/Qwen2.5-7B-Instruct` 为例
+
 ## 文件介绍
 
 ```bash
@@ -109,3 +111,4 @@ python train_grpo.py
 - https://huggingface.co/docs/trl/v0.16.0/en/grpo_trainer
 
 - https://github.com/shibing624/MedicalGPT/blob/main/grpo_training.py
+
