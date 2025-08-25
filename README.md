@@ -88,27 +88,28 @@ python train_grpo.py
 
 ## 参考链接
 
-**使用 transformers 库的 Trainer 做 SFT 微调**
+**Trainer**
 
 - https://developer.aliyun.com/article/1647599
 - https://developer.aliyun.com/article/1641184
 
-**使用 trl 库的 SFTTrainer 做 SFT 微调**
+**SFTTrainer**
 
 - https://huggingface.co/docs/trl/v0.16.0/en/sft_trainer
 
-**使用 trl 库的 RewardTrainer 微调奖励模型**
+**RewardTrainer**
 
 - https://huggingface.co/docs/trl/v0.16.0/en/reward_trainer
 
-**使用 trl 库的 PPOTrainer 强化学习微调**
+**PPOTrainer**
 
 - https://huggingface.co/docs/trl/v0.16.0/en/ppo_trainer
 - https://github.com/huggingface/trl/blob/v0.16.0/examples/scripts/ppo/ppo.py
 
-**使用 trl 库的 GRPOTrainer 强化学习微调**
+**GRPOTrainer**
 
 - https://huggingface.co/docs/trl/v0.16.0/en/grpo_trainer
 
 - https://github.com/shibing624/MedicalGPT/blob/main/grpo_training.py
+
 
