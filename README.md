@@ -48,8 +48,6 @@ cd SFT
 python sft_trainer{后缀}.py
 ```
 
-
-
 - RLHF + PPO
 
 ```bash
@@ -60,18 +58,6 @@ python train_reward.py
 python train_ppo.py
 ```
 
-**备注：**
-
-强化学习最开始应该先进行 SFT 监督微调
-
-然后把微调后的 LoRA 和原 `Qwen2.5-7B-Instruct` 模型合并
-
-把 `train_reward.py`  和 `train_ppo.py` 中的  `model_path` 替换为上面合并 LoRA 后的路径
-
-最后执行上面的训练步骤
-
-
-
 - RLHF + GRPO
 
 ```bash
@@ -81,10 +67,6 @@ python train_reward.py
 # 强化学习微调
 python train_grpo.py
 ```
-
-**备注：**
-
-同上
 
 ## 参考链接
 
@@ -111,5 +93,6 @@ python train_grpo.py
 - https://huggingface.co/docs/trl/v0.16.0/en/grpo_trainer
 
 - https://github.com/shibing624/MedicalGPT/blob/main/grpo_training.py
+
 
 
