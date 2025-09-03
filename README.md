@@ -73,7 +73,7 @@ python train_reward.py
 python train_grpo.py  # 单进程
 ./run_grpo.sh         # DDP GRPO
 
-# 若使用自定义奖励函数计算reqard
+# 若使用自定义奖励函数计算reward
 python train_02.py    # 单进程
 ./run_grpo_02.sh      # DDP GRPO
 ```
@@ -104,5 +104,6 @@ python train_02.py    # 单进程
 - https://github.com/shibing624/MedicalGPT/blob/main/grpo_training.py
 
 **DeepSpeed**
+
 
 - https://huggingface.co/docs/transformers/v4.48.2/en/deepspeed
