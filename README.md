@@ -107,3 +107,4 @@ python train_02.py    # 单进程
 
 
 - https://huggingface.co/docs/transformers/v4.48.2/en/deepspeed
+
