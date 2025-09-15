@@ -18,7 +18,7 @@ deepspeed==0.16.2  # 可选
 
 ### SFT
 
-- 单进程微调
+- Single GPU
 
 ```bash
 cd SFT
@@ -107,6 +107,7 @@ python train_02.py    # 单进程
 
 
 - https://huggingface.co/docs/transformers/v4.48.2/en/deepspeed
+
 
 
 
