@@ -3,7 +3,7 @@
 ## 简介
 
 1. 对单进程训练、DDP、DeepSpeed，均使用 `train.py`
-2. 对 FSDP，均使用 `train_fsdp.py`
+2. 对 FSDP，使用 `train_fsdp.py`
 3. FSDP 和 DeepSpeed ZeRO-3 不支持 QLoRA
 4. DDP 在使用 QLoRA 时，要把 `train.py` 中的 `device_map = "auto" if not is_distributed else None` 改为： `device_map = "auto" if not is_distributed else {"": local_rank}`
 
@@ -81,4 +81,5 @@ accelerate launch --config_file ./accelerate_configs/multi_gpu.yaml train.py
 
 ```bash
 accelerate launch --config_file ./accelerate_configs/deepspeed_zero2.yaml train.py
+
 ```
